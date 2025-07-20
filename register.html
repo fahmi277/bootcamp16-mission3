@@ -14,7 +14,9 @@
       }
     </style>
   </head>
-  <body class=" p-0 m-0 box-border h-screen bg-[#fffdf2]">
+  <body
+    class="p-0 m-0 box-border h-screen bg-[#fffdf2] flex flex-col min-h-screen"
+  >
     <!-- Header -->
     <header
       class="fixed top-0 z-50 w-full h-[74px] sm:h-[80px] bg-[#ffffff] text-white flex items-center px-4 font-bold text-lg mx-auto"
@@ -26,16 +28,11 @@
       />
     </header>
 
-    <!-- Body -->
-    <div class=" px-6"
-    style="padding-top: calc(40vh);"
-    
-    >
-      <main
-        class="flex-grow flex items-center justify-center"
-        style="height: calc(100vh - 98px)"
-      >
-        <div class="w-[590px] bg-white rounded-16 shadow p-3">
+  <!-- Content wrapper -->
+  <div class="flex-1 pt-[74px] sm:pt-[80px] flex items-center justify-center px-6">
+    <main class="w-[590px] bg-white rounded-2xl shadow p-6">
+      <!-- Form & content kamu tetap di sini -->
+      
           <h1 class="text-2xl font-bold text-center mb-2">Pendaftaran Akun</h1>
           <p class="text-center text-gray-500 mb-6">
             Yuk, daftarkan akunmu sekarang juga!
@@ -225,7 +222,7 @@
               lucide.createIcons(); // refresh icons
             }
           </script>
-        </div>
+ 
       </main>
     </div>
   </body>
